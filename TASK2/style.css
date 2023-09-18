@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: white;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background1.png);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    
+    width: 150px;
+   
+
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 500px;
+   
+    
+}
+.nav li{
+    padding: 20px;
+  
+ 
+}
+
+.nav{
+    display: flex;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+ 
+}
+.nav a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  position: absolute;
+  background: yellow;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+.nav a:hover::after{
+    width: 100%;
+}
+.header-text span{
+    color: #ff004f;
+  
+}
+.header-text{
+    margin: 300px;
+    font-size: larger;
+}
+.header-text h1{
+    font-size: 100px;
+}
+.header-text p{
+    font-size: 30px;
+}
+
+
+
+.about span{
+    color: rgb(255, 35, 72);
+    font-size: 20px;
+}
+.about-tab{
+    display: flex;
+margin-left: 50px;
+margin-top: 90px;
+margin-right: 50px;
+justify-content: space-between;
+   
+    
+}
+.about-tab h2{
+    font-size: 30px;
+    color: aqua;
+}
+.about-tab ul{
+    list-style: none;
+}
+.about-tab li{
+    margin-bottom: 10px;
+}
+.skills{
+   
+    border-style: double;
+    padding: 30px;
+}
+.experience{
+   
+    border-style: double;
+    padding: 30px;
+}
+.education{
+   
+    border-style: double;
+    padding: 40px;
+}
+.about h1{
+    font-size: 60px;
+    text-align: center;
+    color: #FAC213;
+}
+
+
+.service{
+    padding: 30px 0px;
+}
+.service-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.service-list div{
+    background-color: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-right: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+.service-list i{
+   font-size: 50px;
+   margin-bottom: 30px;
+   
+}
+.service-list h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.service-list p{
+    font-size: 15px;
+}
+.service h1{
+    font-size: 60px;
+    text-align: center;
+    color: #FAC213;
+}
+.service-list div:hover{
+ background: #ff004f;
+ transform: translateY(-10px);
+}
+
+.prj-one img{
+    border-radius: 50%;
+    height: 50vh;
+   width: 50vh;
+   margin-left: 50px;
+   margin-bottom: 20px;
+}
+
+.prj-one{
+    margin: 100px;
+  
+    width: 50%;
+
+  
+    
+}
+
+.project h1{
+    font-size: 60px;
+    text-align: center;
+    color: #FAC213;
+}
+.project-list{
+    display: flex;
+    justify-content: center;
+   margin-left: 150px;
+   margin-right: 150px;
+}
+.content{
+    background-color: #262626;
+    padding: 40px;
+    font-weight: 300;
+    border-right: 10px;
+   
+
+}
+.content h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff004f;
+}
+.content p{
+    text-align: center;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    font
+}
+
+.copyright{
+    font-size: 21px;
+  margin-left:300px;
+}
+.contact-section {
+    background-color: black;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact-heading {
+    font-size: 60px;
+    text-align: center;
+    color: #FAC213;
+}
+
+.contact-links {
+    margin-top: 20px;
+}
+.contact-links h2{
+    font-size: 30px;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: aqua;
+    margin: 0 20px;
+    font-size: 22px;
+}
+
+/* Style the download button */
+.download-button {
+    background-color: rgb(25, 194, 216);
+    color:darkblue;
+    padding: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 50px;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
